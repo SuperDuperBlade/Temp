@@ -1,9 +1,132 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="TfwjtoGVwJ9jFKLCh3xx">
-    <mxGraphModel>
+    <mxGraphModel dx="4097" dy="2126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hkmk6wQEV94B5twf-CID-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-1" value="GOAL: MAKE A fluid simulator" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="10" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-2" value="Requirements" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="235" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-7" value="Their must be a camera that can move around." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hkmk6wQEV94B5twf-CID-2">
+          <mxGeometry y="30" width="235" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-3" value="fuid will be stored in a container that runs out unto a flat plane." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hkmk6wQEV94B5twf-CID-2">
+          <mxGeometry y="70" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-8" value="Simulation must be done in 3d." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hkmk6wQEV94B5twf-CID-2">
+          <mxGeometry y="140" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-4" value="Must have a large voulume(enough to fill the screen) or be a combination of at least 200 particals." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hkmk6wQEV94B5twf-CID-2">
+          <mxGeometry y="210" width="235" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-5" value="The simulation must be able to run at 40 FPS/TPS.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Hkmk6wQEV94B5twf-CID-2">
+          <mxGeometry y="290" width="235" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-9" target="Hkmk6wQEV94B5twf-CID-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-9" value="Button to start the simulation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-10" target="Hkmk6wQEV94B5twf-CID-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-10" value="Rendering" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="199.5" as="sourcePoint" />
+            <mxPoint x="680" y="199.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-12" value="2D Triangle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-14" target="Hkmk6wQEV94B5twf-CID-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-14" value="3D Cube" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-16" target="Hkmk6wQEV94B5twf-CID-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-16" value="Camera rotating around the cube" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-18" target="Hkmk6wQEV94B5twf-CID-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-18" value="Camera able to rotate and move in space" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="540" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-20" target="Hkmk6wQEV94B5twf-CID-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-20" value="Sphere" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-22" target="Hkmk6wQEV94B5twf-CID-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-22" value="Multiple spheres" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-24" target="Hkmk6wQEV94B5twf-CID-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-24" value="Collistion detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="730" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-26" target="Hkmk6wQEV94B5twf-CID-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-26" target="Hkmk6wQEV94B5twf-CID-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-26" value="Fluid like dynamics /gravity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-29" target="Hkmk6wQEV94B5twf-CID-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-29" value="Adding textures to the models ." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-30" target="Hkmk6wQEV94B5twf-CID-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-30" value="Container" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="830" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hkmk6wQEV94B5twf-CID-34" target="Hkmk6wQEV94B5twf-CID-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-34" value="Gravity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-36" value="Fluid dynamics //TODO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hkmk6wQEV94B5twf-CID-38" value="Complete product" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
